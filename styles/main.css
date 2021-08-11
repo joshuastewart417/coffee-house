@@ -1,0 +1,41 @@
+
+body {
+    background-image:url("/coffee.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.pageHeader {
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:2rem;
+    color:white;
+    text-shadow: 1px 1px 2px darkblue;
+
+
+}
+
+.list {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    text-align:center;
+    font-size: 12px;
+    padding:5px;
+    margin:20px;
+    
+}
+
+.shop {
+    background-color: floralwhite;
+    color:darkblue;
+    border: 1px dotted rgb(0, 0, 0);
+    border-radius:1rem;
+    padding: 2px;
+    margin: 15px 20px;
+	flex: 1 1 16%;
+    width:10rem;
+    height:6rem;
+    
+
+}
